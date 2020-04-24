@@ -122,40 +122,41 @@ nav.navbar.navbar-default.navbar-fixed-top.top-nav-collapse {
 
 .banner {
     background: #02cad4;
-    padding-top: 50px;
+    padding-top: 80px;
 }
 .banner-right {
-    margin: 250px auto 0;
-    text-align: right;
+    margin: 20px auto 0;
+    text-align: left;
 }
 .banner-right h1 {
-    font-size: 25px;
+    font-size: 35px;
     color: #000;
 	margin:10px 0 0;
 }
 .banner-right span {
     text-transform: uppercase;
     color: #fff;
-    font-size: 60px;
+    font-size: 80px;
     font-weight: 900;
     text-shadow: 5px 5px 0 #5d5d5d;
     font-family: 'Text Me One', sans-serif;
 }
 .banner-right h2 {
     color: #464646;
-    font-size: 28px;
+    font-size: 30px;
     margin: 0 0 20px;
     font-style: italic;
 }
 .banner-right p {
-    color: #eaeaea;
-    font-size: 16px;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
     line-height: 28px;
 }
 .thim-click-to-bottom {
     position: absolute;
-    bottom: 6%;
-    left: 50%;
+    bottom: 10%;
+    left: 30%;
     width: 40px;
     height: 40px;
     font-size: 40px;
@@ -1802,6 +1803,7 @@ span.circles-text {
 }
 @media screen and (max-width: 991px) {
 	.banner-left {
+
 		width: 45%;
 		float: left;
 	}
